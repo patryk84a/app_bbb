@@ -1,5 +1,6 @@
 - id: IN_01
   pin: P8_37
+  gpio_mode: pio_pu
   actions:
     single:
       - action: output
@@ -9,6 +10,7 @@
         pin: switch 1
 - id: IN_02
   pin: P8_38
+  gpio_mode: pio_pu
   actions:
     single:
       - action: output
@@ -67,12 +69,14 @@
         pin: light 8
 - id: IN_09
   pin: P8_45
+  gpio_mode: pio_pu
   actions:
     single:
       - action: output
         pin: light 9
 - id: IN_10
   pin: P8_46
+  gpio_mode: pio_pu
   actions:
     single:
       - action: output
@@ -124,8 +128,10 @@
   pin: P9_23
 - id: IN_19
   pin: P9_22
+  gpio_mode: pio_pu
 - id: IN_20
   pin: P9_21
+  gpio_mode: pio_pu
 - id: IN_21
   pin: P9_18
 
@@ -141,22 +147,30 @@
   pin: P9_13
 - id: IN_27
   pin: P9_12
+  gpio_mode: pio_pu
 - id: IN_28
   pin: P9_11
+  gpio_mode: pio_pu
 
 - id: IN_29
   pin: P8_36
+  gpio_mode: pio_pu
 - id: IN_30
   pin: P8_35
+  gpio_mode: pio_pu
 - id: IN_31
   pin: P8_34
+  gpio_mode: pio_pu
 - id: IN_32
   pin: P8_33
+  gpio_mode: pio_pu
 
 - id: IN_33
   pin: P8_32
+  gpio_mode: pio_pu
 - id: IN_34
   pin: P8_31
+  gpio_mode: pio_pu
 - id: IN_35
   pin: P8_30
 - id: IN_36
